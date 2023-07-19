@@ -57,11 +57,33 @@ nav ul{
     list-style: none;
 }
 nav li{
-    margin-left: 30px;
+    margin-right: 30px;
 }
 nav a{
     font-weight: 500;
     color: #3C354F;
+}
+.about-us-container{
+    display: flex;
+}
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+.follow-us-container{    
+    display: flex;
+    padding-right: 15px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.follow-us-container ul, .follow-us-container li{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.follow-us-text{
+    color: #3C354F;
+    font-size: 1.125rem;
+    font-weight: 500;
 }
 /* Logo section */
 .logo-section{
