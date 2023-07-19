@@ -199,6 +199,7 @@ nav a{
 /* footer section */
 footer{
     background: #0B0223;
+    margin-top: 100px;
 }
 .footer-logo{
     display: flex;
@@ -220,6 +221,9 @@ footer{
 }
 .social-media{
     margin-bottom: 70px;
+}
+.social-media a{
+    margin-right: 25px;
 }
 .policy a, .copyright{
     color: rgba(255, 255, 255, 0.60);
