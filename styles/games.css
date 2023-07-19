@@ -259,26 +259,12 @@ nav a{
     justify-content: center;
     margin: 100px 250px;
 }
-/* .first-action-row{
-    display: flex;
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 50px;
-    margin: 0 80px 30px 80px;
-}
-.second-action-row{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 220px;
-} */
 .action-games{
     display: flex;
     gap: 10px;  
     align-items: center;  
     justify-content: center;
     margin-top: 60px;
-
 }
 .action-games p{
     color: #0B0223;    
@@ -303,7 +289,8 @@ footer{
     display: flex;
     justify-content: center;        
     align-items: center;
-    padding: 80px;
+    padding-top: 120px;
+    margin-bottom: 60px;
     
 }
 .footer-logo h2{
@@ -474,7 +461,7 @@ footer{
     }
     .policy a{
         font-size: 0.7rem;
-        margin-bottom: 30px;  
+        line-height: 18px;
     }
     .copyright{
         padding: 20px;
@@ -564,9 +551,6 @@ footer{
     }
 
     /* Footer section */
-    .footer-logo{
-        margin-bottom: 50px;
-    }
     .footer-contents{
         margin: 50px;
         text-align: center;
@@ -582,6 +566,7 @@ footer{
         font-size: 0.7rem;        
         margin-bottom: 50px;
         display: grid;        
+        line-height: 25px;
         grid-template-columns: repeat(2, 1fr);
     }
     .policy a{
@@ -590,4 +575,5 @@ footer{
     .copyright{
         padding: 20px;
     }
+
 }
