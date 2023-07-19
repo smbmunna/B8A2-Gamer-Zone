@@ -22,6 +22,18 @@
     background-color: #4EC5F7;
 }
 
+.text-gradient{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.paragraphs{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
 
 /* Header Styles */
 nav{
@@ -78,25 +90,48 @@ nav a{
     font-size: 5rem;
     font-weight: 800;
     margin-top: 0;    
-    margin-bottom: 20px;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;    
 }
 .banner-text-section p{
-    color: #534C64;
-    font-size: 1.25rem;
     font-weight: 500;
     margin: 0 15px;
 }
 .button-container{
     margin-top: 40px;
 }
-.banner-img-section {
-    border: 1px solid red;
-    width: 45%;
+.banner-img-section {    
+    width: 55%;
 }
 .banner-img-section img{
     width: 100%;
+}
+
+/* Online games section */
+.online-games-section{
+    margin: 0px 240px;    
+}
+
+.online-games-section h2{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+}
+.online-games-section> p{  
+    font-weight: 400;    
+    margin-bottom: 45px;
+    text-align: center;
+}
+.online-games-container img{
+    width: 100%;
+}
+.online-games-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+}
+.online-games-container p{
+    font-weight: 500;
 }
