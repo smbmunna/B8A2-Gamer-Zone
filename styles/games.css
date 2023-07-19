@@ -156,7 +156,7 @@ nav a{
 }
 .online-games-section> p{  
     font-weight: 400;    
-    margin-bottom: 45px;
+    margin: 20px 0 45px 0;
     text-align: center;
 }
 .online-games-container img{
@@ -303,7 +303,7 @@ footer{
     display: flex;
     justify-content: center;        
     align-items: center;
-    padding-top: 80px;
+    padding: 80px;
     
 }
 .footer-logo h2{
@@ -358,7 +358,7 @@ footer{
         text-align: center;
     }
     .logo-section{
-        margin: 100px 50px 100px 0px;
+        margin: 20px 50px 50px 0px;
         
     }
     .follow-us-container{
@@ -446,6 +446,39 @@ footer{
         width: 50px;
     }
 
+    /* Footer section */
+    .footer-logo{
+        margin-bottom: 50px;
+    }
+    .footer-contents{
+        margin: 50px;
+        text-align: center;
+    }
+    .our-sotry a{
+        font-size: 0.7rem;        
+        margin: 15px 12px;
+    }
+    .social-media i{
+        font-size: 30px;        
+    }
+    .social-media{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+    .policy{
+        font-size: 0.7rem;        
+        margin-bottom: 50px;
+        display: grid;        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .policy a{
+        font-size: 0.7rem;
+        margin-bottom: 30px;  
+    }
+    .copyright{
+        padding: 20px;
+    }
 }
 
 
@@ -530,4 +563,31 @@ footer{
         width: 50px;
     }
 
+    /* Footer section */
+    .footer-logo{
+        margin-bottom: 50px;
+    }
+    .footer-contents{
+        margin: 50px;
+        text-align: center;
+    }
+    .our-sotry a{    
+        margin: 15px 12px;
+    }
+    .social-media i{
+        font-size: 30px;        
+    }
+    
+    .policy{
+        font-size: 0.7rem;        
+        margin-bottom: 50px;
+        display: grid;        
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .policy a{
+        font-size: 0.7rem; 
+    }
+    .copyright{
+        padding: 20px;
+    }
 }
