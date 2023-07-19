@@ -7,6 +7,20 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 45px;
+}
+.pink-btn{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.blue-btn{
+    background-color: #4EC5F7;
+}
 
 
 /* Header Styles */
@@ -41,4 +55,38 @@ nav a{
 .logo-section h2{
     font-size: 45px;
     font-weight: 700;
+}
+
+
+/* Banner section */
+.banner-content{
+    margin: 0px 240px;
+}
+.banner{
+    background-image:url("../images/Group\ 14.png") ;
+}
+.banner-text-section h3{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0;
+}
+.banner-text-section h1{        
+    font-size: 5rem;
+    font-weight: 800;
+    margin-top: 0;    
+    margin-bottom: 20px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text-section p{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0 15px;
+}
+.button-container{
+    margin-top: 40px;
 }
