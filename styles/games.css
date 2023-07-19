@@ -7,6 +7,10 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+.logo-text{
+    font-size: 2.8rem;
+    font-weight: 700;    
+}
 .btn-primary{
     padding: 20px 40px;
     color: #FFF;
@@ -35,6 +39,11 @@
     font-size: 1.125rem;
     font-weight: 500;
 }
+.anchor{    
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+
 
 /* Header Styles */
 nav{
@@ -51,9 +60,6 @@ nav li{
     margin-left: 30px;
 }
 nav a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 18px;
     font-weight: 500;
     color: #3C354F;
 }
@@ -190,3 +196,45 @@ nav a{
     font-weight: 600;
 }
 
+/* footer section */
+footer{
+    background: #0B0223;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;        
+    align-items: center;
+    padding-top: 80px;
+    
+}
+.footer-logo h2{
+    color: #fff;    
+}
+.our-sotry{
+    margin-bottom: 50px;    
+}
+.our-sotry a{
+    color: #FFF;
+    margin: 0 auto;
+    margin-right: 50px;
+}
+.social-media{
+    margin-bottom: 70px;
+}
+.policy a, .copyright{
+    color: rgba(255, 255, 255, 0.60);
+}
+.policy a{
+    margin-right: 50px;
+}
+.policy{
+    margin-bottom: 50px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.copyright{
+    margin-bottom: 100px;
+}
