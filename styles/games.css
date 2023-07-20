@@ -234,10 +234,12 @@ nav a{
 
 /* Play instantly section */
 .play-instantly{
-    margin: 120px 240px 0px 50px;
+    /* margin: 120px 240px 0px 50px; */
+    width: 80%;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 150px;
+    gap: 135px;
     align-items: center;
     position: relative;
     overflow-x: unset;    
@@ -247,7 +249,7 @@ nav a{
 }
 .play-instantly-text p{
     font-weight: 400;
-    margin-left: 120px;
+    /* margin-left: 120px; */
       
 }
 .play-instantly-text h2{
@@ -258,11 +260,15 @@ nav a{
     width: 100%;
 }
 .bottom-img{
-    height: 220px;
-    width: 200px;
+    /* height: 220px;
+    width: 200px; */
+    height: 45%;
+    width: 20%;
     position: absolute;
-    top: 420px;
-    left: 600px;    
+    /* top: 420px;
+    left: 600px;     */
+    top: 70%;
+    left: 45%;
 }
 
 /* Action games section */
@@ -421,14 +427,16 @@ footer{
 
     /* Play instantly */
     .play-instantly{
-        margin: 20px 100px;
+        /* margin: 20px 100px; */
     }
     .bottom-img{
-        position: absolute;
-        width: 45%;
-        height: 18%;
-        top: 450px; 
-        left: -55px;
+        /* position: absolute; */
+        width: 35%;
+        height: 25%;
+        /* top: 450px; 
+        left: -55px; */
+        top: 85%;
+        left: 0;
     }
     .play-instantly p{
         margin: 0;
@@ -437,8 +445,13 @@ footer{
     .play-instantly h2{
         font-size: 1.8rem;
     }
-    .play-instantly-image{
-        margin-top: -100px;
+    .play-instantly{
+        gap: 50px;
+    }
+    .play-instantly-image {
+        /* margin-top: -100px; */
+        width: 70%;
+        margin: 0 auto;
     }
     /* action games section */
     .action-games-section{
@@ -539,23 +552,31 @@ footer{
 
     /* play instantly */
     .play-instantly{
-        margin: 20px 100px;
+        /* margin: 20px 100px; */
     }
     .play-instantly{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;         
+        gap: 50px;
     }
     .play-instantly p{
         margin: 0;
     }
+    .play-instantly-text{
+        text-align: center;    
+    }
     .bottom-img{
         position: absolute;
-        width: 28%;
-        height: 18%;
-        top: 750px; 
-        left: -55px;
+        width: 22%;
+        height: 20%;
+        /* top: 750px; 
+        left: -55px; */
+        top: 90%;
+        left: 0%;
     }
     .play-instantly-image{
-        margin-top: -100px;
+        margin: 0 auto;
+        width: 80%;
+        
     }
 
      /* action games section */
