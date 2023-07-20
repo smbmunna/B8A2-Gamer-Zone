@@ -43,7 +43,7 @@
 }
 .anchor{    
     text-decoration: none;
-    font-size: 1.125rem;
+    font-size: 1rem;
 }
 
 
@@ -335,11 +335,16 @@ footer{
 .social-media a{
     margin-right: 25px;
 }
+.policy{
+    width: 60%;
+    display: flex;    
+    justify-content: space-between;
+}
 .policy a, .copyright{
     color: rgba(255, 255, 255, 0.60);
 }
 .policy a{
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 .policy{
     margin-bottom: 50px;
@@ -492,15 +497,14 @@ footer{
         grid-template-columns: repeat(3, 1fr);
         gap: 40px;
     }
-    .policy{
-        font-size: 0.7rem;        
-        margin-bottom: 50px;
-        display: grid;        
-        grid-template-columns: repeat(2, 1fr);
+    .policy{             
+        width: 80%;
+        margin-bottom: 50px;        
     }
     .policy a{
         font-size: 0.7rem;
-        line-height: 18px;
+        line-height: 20px;
+        text-align: center;
     }
     .copyright{
         padding: 20px;
